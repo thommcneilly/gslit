@@ -1,0 +1,296 @@
+/*
+Theme Name: Gslit-tech theme
+Theme URI: http://gslit.com
+Description: A clean and minimal theme
+Author: Thom McNeilly	
+Author URI: http://thommcneilly.com
+Version: 1.0
+*/
+
+
+/***************************************************
+				       Global Styles
+***************************************************/
+
+html, body {
+        height: 100%;
+}
+
+html, body{
+	background-image: url("img/bg.png");
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: black;
+	margin:0 0 1px;
+	line-height: 1.5;
+	background-color:white;
+	background-position:left top;
+	background-repeat:repeat;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+
+a img {border:none
+}
+
+p {
+	margin-bottom:7px;
+}
+	
+a, p a {
+	text-decoration:underline;
+	color:#234B66;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+	position:relative;
+}
+
+
+	
+h1{
+    color: #000;
+    font-size: 36px;
+    line-height: 1.6;
+    margin-left: 40px;
+    margin-top: 56px;
+    text-align: left;
+    text-transform: capitalize;
+
+	
+}
+
+h2{
+	font-size: 17px;
+	line-height:1.7;
+	color:black;
+	text-align:left;
+	width:420px;
+	padding-top:8px;
+	margin-left:40px;
+
+
+	}
+
+	
+h3{
+
+	font-size: 28px;
+	line-height:1.6;
+	color:#565657;
+	text-transform:capitalize;
+	text-align:left;
+	background-color:transparent;
+	padding-top:12px;
+	margin-bottom:9px;
+
+
+
+	}
+
+h4{
+	font-size: 18px;
+	line-height:1.7;
+	color:black;
+	text-align:left;
+	width:350px;
+	padding-top:8px;
+	margin-bottom:12px;
+
+
+
+	}
+
+/***************************************************
+				    Containers and Structure
+***************************************************/
+
+#wrapper{
+	position:relative;
+	width:980px;
+	margin:0 auto;
+	text-align:left;
+	background-color:transparent;
+	padding:15px;}
+
+#container {
+	min-height: 100%;}
+
+#inner-wrap {
+    overflow:auto;
+	padding-bottom: 150px;
+}  /* must be same height as the footer */
+
+.holder_content {
+	position: relative;
+	float: left;
+	width: 100%;
+	margin-top:15px;
+	background:transparent;
+	background: url(img/line.png) 0 -18px no-repeat;}
+
+.top-posts {
+	float: left;
+	width: 290px;
+	position: relative;
+	background:transparent;
+	padding:15px;
+	margin-bottom:10px;}
+
+  .group4 {
+    background: none repeat scroll 0 0 transparent;
+    float: left;
+    margin-bottom: 10px;
+    margin-right: 12px;
+    padding: 15px;
+    position: relative;
+    width: 550px;}
+
+.group5 {
+    background: none repeat scroll 0 0 transparent;
+    float: left;
+    margin-bottom: 10px;
+    padding: 15px;
+    position: relative;
+    width: 350px;}
+
+    .holder_content1 {
+    background: url("img/line.png") no-repeat scroll 0 -18px transparent;
+    float: left;
+    margin-bottom: 20px;
+    margin-top: 6px;
+    position: relative;
+    width: 100%;
+}
+	
+
+
+/***************************************************
+				 Header and logo
+***************************************************/
+
+
+#logo {
+    background: url("img/gslit-logo.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 140px;
+    text-indent: -9999px;}
+
+ #header {
+    height: 195px;}
+
+ #tagline {
+ 	color: black;
+    font-size: 17px;
+    line-height: 1.7;
+    margin-left: 40px;
+    padding-top: 8px;
+    text-align: left;
+    width: 420px;
+    position: absolute;
+    top: 219px;
+ }
+
+/***************************************************
+				       Top Navigational Menu
+***************************************************/
+
+nav{
+	position:absolute;
+	width:620px;
+	top:43px;
+	right:-12px;
+	background:transparent;}
+
+
+nav ul li{
+	float: left;
+	line-height:normal;}
+
+nav ul li a{
+	font-size: 16px;
+	font-family:Arial, Helvetica, sans-serif;
+	color: black;
+	text-transform:capitalize;
+	font-weight:normal;
+	display:block;	/* IE6, IE7 line height fix */
+	padding:15px;
+	background-color:transparent;
+	margin-top:0px;
+	margin-right:6px;
+    text-decoration:none;}
+
+nav ul li a:hover{
+	color: gray;}
+
+nav ul li a.current{
+	background-color:#565657;
+	padding:15px;
+	color:white;
+	-moz-border-radius: 8px;
+	border-radius: 8px;}
+
+
+.content_menu{
+	float: left;
+	width: 274px;
+	margin-top:-10px;
+	margin-bottom:15px;}
+	
+.content_menu ul{	
+	margin: 0px;
+	padding: 0px;
+	float: none;}
+
+.content_menu ul li{
+	float: none;
+	padding-bottom: 16px;}
+
+
+.content_menu ul li a{
+	font-size:14px;
+	line-height:normal;
+    color:#33CC99;
+	text-align:left;
+	text-decoration:none;
+	padding-left:20px;}
+	
+.content_menu ul li a:hover{color:#33CC99;}
+
+
+#about-us ul#menu-top-menu li#menu-item-37 a,
+#services ul#menu-top-menu li#menu-item-53 a,
+#tutorials ul#menu-top-menu li#menu-item-52 a,
+#it-guidance ul#menu-top-menu li#menu-item-51 a,
+#support ul#menu-top-menu li#menu-item-50 a{
+	background: url("img/hover.png") repeat-x scroll 0 -17px transparent;
+    height: 8px;}
+
+
+
+/***************************************************
+				  Footer
+***************************************************/
+
+#footer {
+        position: relative;
+	margin-top: -150px; /* negative value of footer height */
+	height: 150px;
+	clear:both;
+	background: red;}
+
+
+/***************************************************
+				  Links
+***************************************************/
+.read-more {
+    color: #234B66;
+    float: right;
+    font-size: 14px;
+    margin-top: 15px;}
