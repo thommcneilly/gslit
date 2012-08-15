@@ -4,7 +4,7 @@
 
 <div class="holder_content">
 
-        
+        <?php query_posts('category_name=index&showposts=3'); ?>
 
         <?php if(have_posts()) : ?><?php while(have_posts()) : the_post(); ?>
 
@@ -78,7 +78,7 @@
 
 <section class="group5">
 
-        <?php query_posts('category_name=tutorials&showposts=3'); ?>
+        <?php query_posts('category_name=Featured&showposts=3'); ?>
 
 <?php while (have_posts()) : the_post(); ?>
 
@@ -115,10 +115,6 @@
 </section>
 
 </div>
-
-
-
-
 
 
 
