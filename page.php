@@ -41,7 +41,8 @@
 
 
 </div>
-<?php get_sidebar('homepage'); ?>
+
+<?php get_sidebar(); ?>
 
 <?php get_footer(); ?>
 

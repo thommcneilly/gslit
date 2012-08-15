@@ -60,8 +60,9 @@
 
                 <li><a href="#"><img src="#" width="#" height="#"  alt="Video#1"/></a><span>“Lorem ipsum dolor sit amet”</span></li>
 
-                <li><a href="#"><img src="#" width="#" height="#" alt="Video#2"/></a><span>“Lorem ipsum dolor sit amet”</span></li>ul>
+                <li><a href="#"><img src="#" width="#" height="#" alt="Video#2"/></a><span>“Lorem ipsum dolor sit amet”</span></li>
 
+                <li><a href="#"><img src="#" width="#" height="#" alt="Video#2"/></a><span>“Lorem ipsum dolor sit amet”</span></li>
       </ul>
 
 
