@@ -22,14 +22,6 @@ set_post_thumbnail_size(520, 250, true);
 
 
 
-//Some simple code for our widget-enabled sidebar
-
-if ( function_exists('register_sidebar') )
-
-    register_sidebar();
-
-
-
 //Code for custom background support
 
 add_custom_background();
