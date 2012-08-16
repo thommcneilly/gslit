@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-
+<div id="contentwrap">
 
 <div class="holder_content">
 
@@ -117,7 +117,7 @@
 
 </div>
 
-
+</div>
 
 
 
