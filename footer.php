@@ -1,11 +1,5 @@
 <!-- Footer Starts -->
- 
-</div><!-- /#inner-wrap ends here-->
- 
-</div><!-- /#container ends here -->
 
-</div><!-- /#wrapper -->
- 
 	<div id="footer-widgets">
 		<div id="footer"> 
 
@@ -21,6 +15,11 @@
 
 		
  <!-- Footer Ends -->
-</div>
+ 
+</div><!-- /#container ends here -->
+
+</div><!-- /#wrapper -->
+ 
+
 </body>
 </html>
