@@ -638,30 +638,55 @@ nav ul li a.current{
 
 
 .single p {
-
+   
+	font-family: arial !important;
+    
     font-size: 17px;
-
+    
     line-height: 26px;
-
-    width: 800px;
-
+    
     margin: 40px auto;
-
-    font-family: arial!important;}
+    
+    width: 715px;}
 
 
 
 .single {
 
-     background: url("img/line.png") no-repeat scroll 0 -18px transparent;}
+    background: url("img/line.png") no-repeat scroll 0 -18px red;
+    
+    float: right;
+   
+    padding: 10px;}
 
 
 
 .single h3 {
 
-	text-decoration: underline!important;
+	text-decoration: underline!important;}
 
-	margin-left: 92px;}
+
+/***************************************************
+
+			Sidebars
+
+***************************************************/
+
+
+.sidewrap {
+    
+    background: none repeat scroll 0 0 yellow;
+    
+    float: left;
+   
+    width: 245px;}
+
+
+#sidebar {
+    
+    float: right;
+    
+    width: 278px;}
 
 
 
@@ -689,9 +714,7 @@ nav ul li a.current{
 
     -webkit-border-radius: 4px;
 
-     border-radius: 4px;
-
-}
+     border-radius: 4px;}
 
 
 
@@ -716,19 +739,3 @@ nav ul li a.current{
     background: -moz-linear-gradient(center top , #575757, #888888) repeat scroll 0 0 transparent;
 
     color: #AFAFAF;}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

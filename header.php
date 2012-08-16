@@ -89,10 +89,6 @@ $page = $page ? $page : 'index';
 
 <div id="container">
 
- 
-
-      <div id="inner-wrap">
-
 
 
 

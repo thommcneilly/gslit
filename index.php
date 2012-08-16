@@ -1,6 +1,5 @@
 <?php get_header(); ?>
 
-<div id="contentwrap">
 
 <div class="holder_content">
 
@@ -114,8 +113,6 @@
         <?php endif; ?>
 
 </section>
-
-</div>
 
 </div>
 

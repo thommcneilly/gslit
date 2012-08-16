@@ -42,7 +42,7 @@
 
 </div>
 
-<div class id="sidewrap"><?php $sidebar = get_post_meta($post->ID, "sidebar", true);
+<div class="sidewrap"><?php $sidebar = get_post_meta($post->ID, "sidebar", true);
 get_sidebar($sidebar);
 ?></div>
 
