@@ -87,37 +87,18 @@ $page = $page ? $page : 'index';
 
 
 
-<div id="container">
+            <div id="header">
 
-
-
-
-
-
-
-      		<div id="header">
-
-
-
- 
-
-
-
-
-
-        <a href="<?php echo get_option('home'); ?>"id="logo"><?php bloginfo('name'); ?></a>
+<a href="<?php echo get_option('home'); ?>"id="logo"><?php bloginfo('name'); ?></a>
 
         <h1 id="tagline">"<?php bloginfo('description'); ?>"</h1>
 
 
 
-
-
-<nav><?php wp_nav_menu( array( 'sort_column' => 'menu_order', 'menu_class' => 'nav', 'theme_location' => 'primary-menu' ) ); ?></nav>
-
 <div id="callus">028 2827 2827</div>
 
+
+<nav id="topnav"><?php wp_nav_menu( array( 'sort_column' => 'menu_order', 'menu_class' => 'nav', 'theme_location' => 'primary-menu' ) ); ?></nav>
 </div>
 
-
-
+<div id="container">
