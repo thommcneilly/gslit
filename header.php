@@ -5,13 +5,11 @@
 <head>
 
 <link href='http://fonts.googleapis.com/css?family=Revalia' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Quicksand:400,300' rel='stylesheet' type='text/css'>
 
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
 
 <link rel="shortcut icon" href="<?php bloginfo('stylesheet_directory'); ?>/favicon.ico" />
-
-<link href="/(directory)/menuAccordion.css" rel="stylesheet" type="text/css" />
- <script src="/(directory)/menuAccordion.js" type="text/javascript"></script>
 
  <!--[if lt IE 9]>
 
@@ -80,25 +78,27 @@ $page = $page ? $page : 'index';
 
 
 <body id="<?php echo $page ?>">
-
-
-
-	<div id="wrapper">
-
+  <div id="wrapper">
 
 
             <div id="header">
 
-<a href="<?php echo get_option('home'); ?>"id="logo"><?php bloginfo('name'); ?></a>
+              <div id="call-us">
 
-        <h1 id="tagline">"<?php bloginfo('description'); ?>"</h1>
+  <ul>
+    <li class="contact-us"><a href="contact-us">Contact Us</a></li>
+    <li class="tutorial"><a href="http://beta.gslit.com/contact-us">Tutorials</a></li>
+  </ul>
 
 
-
-<div id="callus">028 2827 2827</div>
-
-
-<nav id="topnav"><?php wp_nav_menu( array( 'sort_column' => 'menu_order', 'menu_class' => 'nav', 'theme_location' => 'primary-menu' ) ); ?></nav>
 </div>
 
+<a href="<?php echo get_option('home'); ?>"id="logo"><?php bloginfo('name'); ?></a>
+
+        <h1 id="tagline"><?php bloginfo('description'); ?></h1>
+
+</div>
+  <nav id="main-nav"><?php wp_nav_menu( array( 'sort_column' => 'menu_order', 'menu_class' => 'nav', 'theme_location' => 'primary-menu' ) ); ?></nav>
 <div id="container">
+
+

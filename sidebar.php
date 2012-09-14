@@ -1,5 +1,3 @@
-
-
 <div class="sidebar">
 	<?php
       $catposts = get_posts('numberposts=5&category_name=Services');
@@ -17,9 +15,3 @@
 </section>
    <?php endforeach; ?>
 </div>
-
-
-
-
-
-

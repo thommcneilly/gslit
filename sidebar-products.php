@@ -1,8 +1,7 @@
 
-
 <div class="sidebar">
 	<?php
-      $catposts = get_posts('numberposts=5&category_name=Services');
+      $catposts = get_posts('numberposts=5&category_name=Products');
       foreach($catposts as $post) :
    ?>
 <section class="side-container">
